@@ -35,5 +35,9 @@ time, mark, audio, video {
 }
 
 ol, ul {
-	list-style: none;
+	margin-left: 80px;
 }
+
+li {
+	margin-left: 50px;
+}  

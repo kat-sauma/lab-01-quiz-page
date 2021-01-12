@@ -1,7 +1,7 @@
 # lab-01-quiz-page
 quiz practice page
 
-UIZ PAGE:
+QUIZ PAGE:
 
 - Plan:
 - Act on It
