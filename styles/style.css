@@ -103,6 +103,16 @@ p {
     margin: var(--gutter);
 }
 
+button {
+    background-color: whitesmoke;
+    border-color: bisque;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 50px;
+    width: 70px;
+    border-right: cadetblue;
+    border-bottom: cadetblue;
+}
 
 footer {
     position: fixed;
