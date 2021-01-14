@@ -87,6 +87,12 @@ h2 {
     animation: pulse 20s infinite ease-in-out;
 }
 
+#secret-div  {
+    height: 100%;
+    width: 40%;
+    display: flex;
+}
+
 header img {
     height: var(--header-height);
 }
@@ -112,7 +118,9 @@ button {
     width: 70px;
     border-right: cadetblue;
     border-bottom: cadetblue;
+    
 }
+
 
 footer {
     position: fixed;
