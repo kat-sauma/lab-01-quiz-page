@@ -24,8 +24,9 @@ body {
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Righteous', cursive;
     background-color: var(--color2);
+
 }
 
 main {
@@ -34,6 +35,8 @@ main {
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    font-family: 'Manrope', sans-serif;
+    background-color: #e2c8c2;
 }
 
 section {
@@ -49,6 +52,9 @@ section {
     margin-top: var(--gutter);
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
+    border-top-left-radius: 400px;
+    border-bottom-right-radius: 700px;
+    background-color: rgba(149, 192, 235, 0.4);
 }
 
 header {
@@ -57,6 +63,7 @@ header {
     background-color: var(--color3);
     height: var(--header-height);
     box-shadow: var(--shadow);
+    background-color: bisque;
 }
 
 footer {
@@ -77,14 +84,22 @@ h2 {
 }
 
 .main-logo {
-    animation: pulse 5s infinite ease-in-out;
+    animation: pulse 20s infinite ease-in-out;
+}
+
+#secret-div  {
+    height: 100%;
+    width: 40%;
+    display: flex;
 }
 
 header img {
     height: var(--header-height);
 }
 
-
+h2, h3 {
+    font-family: 'Righteous', cursive;
+}
 
 content {
     width: 80%;
@@ -93,7 +108,20 @@ content {
 p {
     margin: var(--gutter);
 }
-  
+
+button {
+    background-color: whitesmoke;
+    border-color: bisque;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    height: 50px;
+    width: 70px;
+    border-right: cadetblue;
+    border-bottom: cadetblue;
+    
+}
+
+
 footer {
     position: fixed;
     width: 100%;
