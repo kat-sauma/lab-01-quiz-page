@@ -21,15 +21,17 @@ quizButton.addEventListener('click', () => {
     const firstName = prompt('What is your first name?');
     const lastName = prompt('What is your last name?');
 
-
     const firstAnswer = prompt('Did I live in a city outside the U.S.?');
     if (countsAsAYes(firstAnswer)) correctAnswers++;
+    if (!confirmation) return;
 
     const secondAnswer = prompt('Is music a particular passion I want to enmesh with coding?');
     if (!countsAsAYes(secondAnswer)) correctAnswers++;
+    if (!confirmation) return;
 
     const thirdAnswer = prompt('Has my dance work used X-Box Kinect and Motion Capture before?');
     if (countsAsAYes(thirdAnswer)) correctAnswers++;
+    if (!confirmation) return;
 
     const resultsString = `Wow, ${firstName} ${lastName}... you either know me really well, or not at all, but you got ${correctAnswers} on point. So you tell me!`;
     resultsArea.textContent = resultsString;
